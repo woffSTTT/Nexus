@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard Moderazione</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Benvenuto, {{ user.username }}</h1>
+  <h2>Statistiche Moderazione</h2>
+  <ul>
+    <li>BAN: {{ stats.BAN }}</li>
+    <li>KICK: {{ stats.KICK }}</li>
+    <li>MUTE: {{ stats.MUTE }}</li>
+    <li>WARN: {{ stats.WARN }}</li>
+  </ul>
+  <a href="/logout">Logout</a>
+</body>
+</html>
