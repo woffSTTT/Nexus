@@ -1,0 +1,6 @@
+{
+  "client_id": "TUO_CLIENT_ID_DISCORD",
+  "client_secret": "TUO_CLIENT_SECRET",
+  "redirect_uri": "http://localhost:5000/callback",
+  "token": "TOKEN_DEL_BOT"
+}
